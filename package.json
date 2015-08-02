@@ -1,0 +1,31 @@
+{
+  "name": "denmark-dr-stream",
+  "description": "Creates a download stream from a dr.dk url",
+  "version": "1.0.0",
+  "author": "Andreas Madsen <amwebdk@gmail.com>",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AndreasMadsen/denmark-dr-download.git"
+  },
+  "keywords": [
+    "denmark",
+    "dr",
+    "video",
+    "download"
+  ],
+  "dependencies": {
+    "denmark-dr-videosource": "1.0.x",
+    "request": "2.60.x",
+    "async": "1.4.x",
+    "m3u8": "0.0.x"
+  },
+  "devDependencies": {
+    "endpoint": "0.4.x",
+    "tap": "1.3.x"
+  },
+  "license": "MIT"
+}
