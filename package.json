@@ -1,7 +1,7 @@
 {
   "name": "denmark-dr-stream",
   "description": "Creates a download stream from a dr.dk programcard URN",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "Andreas Madsen <amwebdk@gmail.com>",
   "scripts": {
     "test": "tap -R=tap -t=600 test.js"
@@ -18,7 +18,6 @@
     "download"
   ],
   "dependencies": {
-    "denmark-dr-programcard": "1.0.x",
     "request": "2.60.x"
   },
   "devDependencies": {

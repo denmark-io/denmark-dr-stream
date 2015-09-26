@@ -2,7 +2,6 @@
 'use strict';
 'use strong';
 
-const videosource = require('denmark-dr-videosource');
 const request = require('request');
 const stream = require('stream');
 const async = require('async');
