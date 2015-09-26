@@ -3,6 +3,7 @@
 'use strong';
 
 const drvideo = require('./index.js');
+const endpoint = require('endpoint');
 const test = require('tap').test;
 
 test('dead page', function (t) {

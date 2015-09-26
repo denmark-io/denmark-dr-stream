@@ -21,7 +21,8 @@
     "request": "2.60.x"
   },
   "devDependencies": {
-    "tap": "1.4.x"
+    "tap": "1.4.x",
+    "endpoint": "0.4.x"
   },
   "license": "MIT"
 }
