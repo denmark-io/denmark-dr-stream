@@ -4,10 +4,7 @@
 
 const request = require('request');
 const stream = require('stream');
-const async = require('async');
-const path = require('path');
 const util = require('util');
-const m3u8 = require('m3u8');
 
 function DrVideoStream(urn) {
   if (!(this instanceof DrVideoStream)) return new DrVideoStream(urn);
